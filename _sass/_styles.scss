@@ -166,21 +166,6 @@ tbody tr:nth-child(even) td {
   max-width:                  100%;
 }
 
-footer {
-  bottom:                     0;
-  height:                     15rem;
-  position:                   absolute;
-  text-align:                 center;
-  width:                      100%;
-}
-
-.contact {
-  align-items:                center;
-  display:                    flex;
-  margin:                     0 auto;
-  max-width:                  24rem;
-}
-
 .site-info {
   font-size:                  $font-size-footnote;
 }
