@@ -1,6 +1,6 @@
 # marc.khouri.ca
 
-My personal website, at [marc.khouri.ca](http://marc.khouri.ca).
+My personal website, at [marc.khouri.ca](https://marc.khouri.ca).
 
 Inspired by [Mark Berger](https://github.com/mark-berger/mark-berger.github.io)
 

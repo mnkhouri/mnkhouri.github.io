@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Marc. This site is a place to post thoughts, personal project information,
   and anything else that’s interesting.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://marc.khouri.ca" # the base hostname & protocol for your site
+url: "https://marc.khouri.ca" # the base hostname & protocol for your site
 permalink: /posts/:year/:title.html
 
 defaults:
