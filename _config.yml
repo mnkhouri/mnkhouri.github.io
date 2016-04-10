@@ -1,0 +1,30 @@
+# Site settings
+title: Marc Khouri
+contact:
+  email: marc@khouri.ca
+  github: mnkhouri
+  linkedin: marckhouri
+description: > # this means to ignore newlines until "baseurl:"
+  Hi, I'm Marc. This site is a place to post thoughts, personal project information,
+  and anything else that’s interesting.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://marc.khouri.ca" # the base hostname & protocol for your site
+permalink: /posts/:year/:title.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Build settings
+exclude: ["CNAME", "README.md", "LICENSE"]
+markdown: kramdown
