@@ -10,5 +10,5 @@ Posts in the [_posts/](_posts/) directory are copyrighted by Marc Khouri. All ot
 
 ## Usage
 
-gem install github pages
-jekyll serve
+- gem install github-pages
+- jekyll serve
