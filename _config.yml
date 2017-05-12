@@ -27,4 +27,5 @@ defaults:
 
 # Build settings
 exclude: ["CNAME", "README.md", "LICENSE"]
+include: [".well-known"]
 markdown: kramdown
