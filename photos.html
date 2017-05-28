@@ -1,0 +1,17 @@
+---
+layout: default
+title: Photography
+permalink: /photos.html
+---
+
+<table style="width:100%">
+  {% for image in site.static_files %}
+    {% if image.path contains 'assets/images/photos' %}
+      {% unless image.path contains '-thumb.' %}
+      <a href="{{ image.path }}">
+        <img src="{{ image.path | remove: image.extname | append: '-thumb' | append: image.extname }}" alt="" style='width:100%;' border="0">
+      </a>
+      {% endunless %}
+    {% endif %}
+  {% endfor %}
+</table>

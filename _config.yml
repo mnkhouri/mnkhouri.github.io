@@ -26,6 +26,6 @@ defaults:
       layout: "default"
 
 # Build settings
-exclude: ["CNAME", "README.md", "LICENSE"]
+exclude: ["CNAME", "README.md", "LICENSE", "tools"]
 include: [".well-known"]
 markdown: kramdown
