@@ -1,4 +1,13 @@
-Bluetooth Mesh is a specification allow for communication between and control of devices in a mesh network, similar to the ZigBee and Z-Wave specifications. This is a short summary of the architecture and features of Bluetooth Mesh.
+Bluetooth Mesh is a specification to allow for communication between and control of devices in a mesh network, similar to the ZigBee and Z-Wave specifications. The specification was published today by the Bluetooth Special Interest Group (SIG), and is ready for developers and manufacturers to work with. This is a short summary of the architecture and features of Bluetooth Mesh.
+
+### The most imporant points
+
+- Bluetooth Mesh will use (generally) the same hardware as BLE, but will require new software support at the stack layer -- not generally feasible to roll your own.
+- Similar to ZigBee / Z-Wave in terms of capabilities.
+- No hub required, though a hub-like device may still be desired for remote access/monitoring.
+- BLE devices (e.g. phones) will be able to interact with the mesh (only if the user has one of a special class of device called a "proxy").
+
+### A bit more in depth
 
 #### Provisioning
 
