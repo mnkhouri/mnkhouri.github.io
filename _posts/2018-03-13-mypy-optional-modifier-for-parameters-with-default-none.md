@@ -1,3 +1,6 @@
+---
+title: "MyPy 'Optional' Modifier for Parameters with Default Value 'None'"
+---
 For a Python function with a parameter with default value `None`, what is the effect of marking that parameter as `Optional`?
 
 `def f(a: Optional[str] = None)` seemed overly verbose to me, because I didn't understand why "Optional" wouldn't just be inferred from `def f(a: str = None)`.
