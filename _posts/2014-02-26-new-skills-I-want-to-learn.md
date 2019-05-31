@@ -1,5 +1,0 @@
-While working on completing the ISS notifier, I have started to pick up a few new skills that I'm looking forward to improving:
-
-- Python: I'm very comfortable writing in C, but I don't have a strong grasp on any high(er) level language. Python is widely used, has excellent libraries, and can be applied as a general purpose scripting and data manipulation language. I look forward to completing the [Code Academy](http://www.codeacademy.com/) course.
-- Doxygen: Poorly documented code is hard to review, refactor and reuse. While I am confident that most programmers could follow my comments and code, I want to move to a more formal documentation system. [Doxygen](http://www.doxygen.org/) is a reference and documentation generator which uses in-line comments/annotations in sources code to produce pretty, organized, and functional documentation in linked HTML or PDF format.
-- Embedded hardware hacking: once the ISS Notifier and the Bluetooth link projects are completed, I want to try my hand at hardware hacking. In the meantime, I've bookmarked [MicroCorruption](http://www.microcorruption.com/) for later review.

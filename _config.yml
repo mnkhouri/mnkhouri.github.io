@@ -1,12 +1,12 @@
 # Site settings
-title: Marc Khouri
+title: Raul Matias
 contact:
-  email: marc@khouri.ca
-  github: mnkhouri
-  linkedin: marckhouri
+  email: raulmatias7@gmail.com
+  github: RaulMatias
+  linkedin: raulmatias
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Marc. This site is a place to post thoughts, personal project information,
-  and anything else that’s interesting.
+  Hi, Raul here. This is my personal website. If you're interested in learning a bit about me,
+  or just need a way to get in contact, you came to the right place.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://marc.khouri.ca" # the base hostname & protocol for your site
 permalink: /posts/:year/:title.html
