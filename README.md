@@ -1,12 +1,12 @@
-# marc.khouri.ca
+# raulmatias.github.io
 
-My personal website, at [marc.khouri.ca](https://marc.khouri.ca).
+My personal website, at [raulmatias.github.io](https://www.raulmatias.github.io).
 
-Inspired by [Mark Berger](https://github.com/mark-berger/mark-berger.github.io)
+Forked from [Marc Khouri](https://github.com/mnkhouri/mnkhouri.github.io)
 
 ## License
 
-Posts in the [_posts/](_posts/) directory are copyrighted by Marc Khouri. All other content is released under the [MIT License](http://www.opensource.org/licenses/MIT).
+Released under the [MIT License](http://www.opensource.org/licenses/MIT).
 
 ## Usage
 

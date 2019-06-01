@@ -8,24 +8,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Hi, Raul here. This is my personal website. If you're interested in learning a bit about me,
   or just need a way to get in contact, you came to the right place.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://marc.khouri.ca" # the base hostname & protocol for your site
-permalink: /posts/:year/:title.html
-
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+url: "https://raulmatias.github.io" # the base hostname & protocol for your site
 
 # Build settings
-exclude: ["CNAME", "README.md", "LICENSE", "tools"]
-include: [".well-known"]
+exclude: ["README.md", "LICENSE"]
 markdown: kramdown
