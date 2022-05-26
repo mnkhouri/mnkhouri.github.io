@@ -1,5 +1,5 @@
 ---
-categories: projects
+categories: projects homepage
 title: Reverse Engineering the Guitar Hero 5 Neck Communication Protocol
 ---
 

@@ -1,3 +1,7 @@
+---
+categories: homepage
+---
+
 Bluetooth Mesh is a specification to allow for communication between and control of devices in a mesh network, similar to the ZigBee and Z-Wave specifications. The specification was published today by the Bluetooth Special Interest Group (SIG), and is ready for developers and manufacturers to work with. This is a short summary of the architecture and features of Bluetooth Mesh.
 
 ### The most imporant points

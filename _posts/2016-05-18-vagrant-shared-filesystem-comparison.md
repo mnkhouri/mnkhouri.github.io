@@ -1,3 +1,7 @@
+---
+categories: homepage
+---
+
 At my current company, we use [Vagrant](https://www.vagrantup.com) to create and maintain virtual machines in a reproducible manner. Our developers use their host machine to write code, then use a Vagrant VM to compile our application.
 
 Vagrant can use [several technologies](https://www.vagrantup.com/docs/synced-folders/) to keep a folder on the host machine synchronized with the guest virtual machine: NFS, RSync, SMB, or Virtualbox. Each of these technologies has difference performance characteristics, which results in dramatically different compilation times, ranging from 30 seconds to over 5 minutes.

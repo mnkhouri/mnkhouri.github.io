@@ -1,3 +1,7 @@
+---
+categories: homepage
+---
+
 [GitHub Pages](https://pages.github.com/) are an easy and free way to host a web site (like this one!). By default, GitHub will host your site at `<your_username>.github.io`. The Pages documentation also covers setting up a [custom domain](https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for your site, which can be any of the following combinations:
 
 1. your apex domain (e.g. khouri.ca)

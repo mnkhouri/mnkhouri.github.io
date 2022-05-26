@@ -1,4 +1,5 @@
 ---
+categories: homepage
 title: Convert a ZFS mirror to raidz1 using a virtual device
 ---
 It is not possible to convert a zfs vdev's type (e.g. raidz1 to raidz2). However, with a bit of trickery, we can convert a pool with one mirrored vdev into a pool with one raidz1 vdev, without having an extra hard drive on hand.
@@ -72,7 +73,6 @@ Now, `zpool status -v` shows:
         old_hdd_a                              ONLINE       0     0     0
 ```
 
-
 #### Create a sparse file and mount it
 
 Create the sparse file. This file will _look_ like it is the size you specify, but will take up 0 space on your disk:
@@ -142,14 +142,14 @@ That's it! Using a sparse file as a loopback device in your zfs pool is definite
 
 ---------------
 
-## Addendum: full output of all commands as I went through this process.
+## Addendum: full output of all commands as I went through this process
 
 My setup wasn't exactly as described above, these are my details:
 
 - I had 3x8TB in raidz1 and 2x10TB in mirror (~26TB usable).
 - I bought 2 more 10TB drives.
 - I setup a second pool with a 4x10TB raidz1 vdev made up of one of the 10TB drives from my mirror, the 2 new 10TB drives, and a virtual drive (~30TB usable).
-    + My original pool new had 3x8TB in raidz1 and 1x10TB with no redundancy (still ~26TB usable).
+    - My original pool new had 3x8TB in raidz1 and 1x10TB with no redundancy (still ~26TB usable).
 - I transferred all my data from the old pool to the new pool
 - I moved all the devices from my old pool to the new pool, so I ended with 3x8TB in raidz1 and 4x10TB in raidz1 (~46TB usable)
 
