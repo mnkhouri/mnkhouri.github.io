@@ -1,5 +1,4 @@
 ---
-categories: homepage
 title: Why your apartment Wi-Fi is slow (and what you can do about it)
 ---
 
@@ -9,7 +8,7 @@ The most likely cause of slow Wi-Fi in your apartment is interference from your 
 
 ## Introduction
 
-Through this blog post, we will explore the basic operating principles behind Wi-Fi[^1], which will allow you to understand why your home's Wi-Fi may be slow and how you can improve it. You will see a host of footnotes with extra details, but none of those are necessary for understanding the topic.
+Through this blog post, we will explore the basic operating principles behind Wi-Fi[^wifi-vs-wlan]:, which will allow you to understand why your home's Wi-Fi may be slow and how you can improve it. You will see a host of footnotes with extra details, but none of those are necessary for understanding the topic.
 
 ## The Facts
 
@@ -19,4 +18,6 @@ Through this blog post, we will explore the basic operating principles behind Wi
 1. 2.4Ghz penetrates walls / common building materials better than 5GHz
 1. Combine facts 1+2+3, and you will see that in a dense place (like your apt complex) 2.4GHz is going to be incredibly congested. Some channels on 5GHz may be congested as well
 
-[^1] Throughout this post, I will use the term "Wi-Fi", which is a trademarked name of a family of wireless network protocols based on the IEEE 802.11 family of standards. The generic term for a the network created using Wi-Fi is a Wireless LAN (WLAN). [Read more on Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi).
+## Footnotes
+
+[^wifi-vs-wlan]: Throughout this post, I use the term "Wi-Fi", which the trademarked name for a family of wireless network protocols based on the IEEE 802.11 family of standards. The generic term for a the network created using Wi-Fi is a Wireless LAN (WLAN). [Read more on Wikipedia](https://en.wikipedia.org/wiki/Wi-Fi).

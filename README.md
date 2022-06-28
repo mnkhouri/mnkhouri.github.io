@@ -10,5 +10,7 @@ Posts in the [_posts/](_posts/) directory are copyrighted by Marc Khouri. All ot
 
 ## Usage
 
-- gem install github-pages
+- gem install jekyll github-pages webrick
+  - brew version of gem at `/usr/local/opt/ruby/bin/gem`
 - jekyll serve
+  - on my current machine, this is `/usr/local/lib/ruby/gems/3.1.0/bin/jekyll serve`
