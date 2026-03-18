@@ -186,7 +186,7 @@ function startMailMerge(e) {
    }  
  }
   
-  ss.toast('Shoot me feedback at MNK5084@psu.edu.','Mail Merge Complete',-1);
+  ss.toast('Done!','Mail Merge Complete',-1);
   //print out logger output for debug
   //ss.toast(Logger.getLog(),'Debug log',-1);
   

@@ -1,7 +1,7 @@
 # Site settings
 title: Marc Khouri
 contact:
-  email: marc@khouri.ca
+  email: blog@khouri.ca
   github: mnkhouri
   linkedin: marckhouri
 description: > # this means to ignore newlines until "baseurl:"
